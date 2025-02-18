@@ -1,20 +1,20 @@
 {
   "site": {
-    "title": "Oscar Barajas Tavares | GNDX",
-    "base_url": "https://gndx.dev",
+    "title": "Angel Archbold | AA",
+    "base_url": "http://localhost",
     "base_path": "/",
     "favicon": "/favicon.png",
-    "logo": "https://s3.amazonaws.com/gndx.dev/gndx-logo.png",
+    "logo": "/logo.png",
     "lang": "es",
-    "description": "Desarrollador Front-end, creando mi primera página web en el 2001, Actualmente Learning Engineer en Platzi, Microsoft MVP - #JavaScript #React #Web3 #WithAstro - 🇲🇽 🇨🇴"
+    "description": "Sofware Engineer, Actualmente trabajo en Mercadolibre. - #Java #JavaScript #React - 🇨🇴"
   },
   "metadata": {
-    "meta_author": "Oscar Barajas @gndx",
-    "meta_description": "Desarrollador Front-end, creando mi primera página web en el 2001, Actualmente Learning Engineer en Platzi, Microsoft MVP - #JavaScript #React #Web3 #WithAstro - 🇲🇽 🇨🇴"
+    "meta_author": "Angel Archbold",
+    "meta_description": "Sofware Engineer, Actualmente trabajo en Mercadolibre. - #Java #JavaScript #React - 🇨🇴"
   },
   "author": {
-    "name": "Oscar Barajas Tavares",
-    "avatar": "https://s3.amazonaws.com/gndx.dev/gndx-512.jpeg",
-    "bio": "Desarrollador Front-end, creando mi primera página web en el 2001, Actualmente Learning Engineer en Platzi, Microsoft MVP - #JavaScript #React #Web3 #WithAstro - 🇲🇽 🇨🇴"
+    "name": "",
+    "avatar": "/angel.jpg",
+    "bio": "Sofware Engineer, Actualmente trabajo en Mercadolibre. - #Java #JavaScript #React - 🇨🇴"
   }
 }

@@ -1,16 +1,33 @@
 ---
-import HomePagination from "@components/HomePagination.astro";
+import { Image } from "astro:assets";
 import Base from "@layouts/Base.astro";
-import Posts from "@layouts/Posts.astro";
-
-import { getCollection } from "astro:content";
-
-const posts = (await getCollection("blog")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+import Page from "@layouts/Page.astro";
 ---
 
-<Base>
-  <Posts posts={posts} />
-  <HomePagination />
+<Base meta_title="Angel Archbold | Home">
+  <Page title="">
+    <figure class="logo flex items-center justify-center">
+      <Image
+        src="/loki.jpg"
+        alt="loki"
+        class="rounded mr-8 shadow-lg shadow-teal-500/50"
+        width={300}
+        height={300}
+        decoding="async"
+        loading="lazy"
+      />
+    </figure> 
+    <p>Nacido en Barranquilla, Colombia y actualmente residiendo en Barranquilla me desempeño como Software Engineer en Mercadolibre. Mi principal objetivo en esta posición desarrollar la mejor experiencia para nuestros usuarios y apoyar en transformar la forma de comprar, vender, pagar, financiar y hacer envíos.</p>
+    <h3>Especialidades</h3>
+    <p>
+      Soy un apasionado por las tecnologías Web y he trabajado con las siguientes tecnologias:
+      <br>
+      JavaScript, Solidity, React, NextJS, Astro, TypeScript, Node, GitHub.
+    </p>
+    <h3>Trayectoria</h3>
+    <p>
+      Desarrollador Web con más de 5 años de experiencia, creando mi
+      primera página web en el 2019.
+    </p>
+  </Page>
 </Base>

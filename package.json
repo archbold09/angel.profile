@@ -12,6 +12,10 @@
       "name": "Oscar Barajas @gndx",
       "email": "oscar@gndx.dev",
       "url": "https://gndx.dev"
+    },
+    {
+      "name": "Angel Archbold",
+      "email": "angelarchbold09@gmail.com"
     }
   ],
   "keywords": [
@@ -21,18 +25,12 @@
     "tailwindcss",
     "typescript"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gndx/gndx.dev.git"
-  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "youtube": "node scripts/youtube.cjs",
-    "newpost": "astro-md-generator"
+    "astro": "astro"
   },
   "devDependencies": {
     "@astrojs/mdx": "^3.1.9",

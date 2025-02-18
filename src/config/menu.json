@@ -3,22 +3,6 @@
     {
       "name": "Home",
       "url": "/"
-    },
-    {
-      "name": "Acerca",
-      "url": "/about"
-    },
-    {
-      "name": "Stack",
-      "url": "/stack"
-    },
-    {
-      "name": "Cursos",
-      "url": "/cursos"
-    },
-    {
-      "name": "Mentoría",
-      "url": "/mentoria"
     }
   ]
 }

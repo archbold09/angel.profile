@@ -10,7 +10,7 @@ import { manifest } from "./src/utils/manifest"
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://gndx.dev',
+	site: 'http://localhost',
 	image: {
 		remotePatterns: [{ protocol: "https" }],
 	},
